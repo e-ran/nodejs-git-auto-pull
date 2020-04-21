@@ -20,7 +20,8 @@
     "koa-onerror": "^4.1.0",
     "koa-router": "^8.0.8",
     "koa-static": "^5.0.0",
-    "koa-views": "^6.2.1"
+    "koa-views": "^6.2.1",
+    "node-cmd": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
