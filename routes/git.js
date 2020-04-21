@@ -6,7 +6,7 @@ router.prefix('/git');
 var gitbashPath = "C:/Program Files/Git/git-bash.exe";
 
 router.all('/pull',async (ctx, next)=> {
-  console.log(ctx.body, ctx.query);
+  console.log("pull params:", ctx.body, ctx.query);
 
   var opt = {
     cwd: "C:/inetpub/wwwroot/"
